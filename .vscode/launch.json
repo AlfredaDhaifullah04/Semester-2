@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "dosenMain04",
+            "request": "launch",
+            "mainClass": "Pertemuan_2.dosenMain04",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "mataKuliahMain04",
+            "request": "launch",
+            "mainClass": "Pertemuan_2.mataKuliahMain04",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "MahasiswaMain04",
+            "request": "launch",
+            "mainClass": "Pertemuan_2.MahasiswaMain04",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
             "name": "mahasiswa04",
             "request": "launch",
             "mainClass": "Pertemuan_2.mahasiswa04",
