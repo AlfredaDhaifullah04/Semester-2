@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "mahasiswa04",
+            "request": "launch",
+            "mainClass": "Pertemuan_2.mahasiswa04",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "Pertemuan_1.Array",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "Pemilihan",
+            "request": "launch",
+            "mainClass": "Pertemuan_1.Pemilihan",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "Perulangan",
+            "request": "launch",
+            "mainClass": "Pertemuan_1.Perulangan",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "Tugas1",
+            "request": "launch",
+            "mainClass": "Pertemuan_1.Tugas1",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "fungsi",
+            "request": "launch",
+            "mainClass": "Pertemuan_1.fungsi",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "tugas1Lagi",
+            "request": "launch",
+            "mainClass": "Pertemuan_1.tugas1Lagi",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "tugas2",
+            "request": "launch",
+            "mainClass": "Pertemuan_1.tugas2",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "tugas2Lagi",
+            "request": "launch",
+            "mainClass": "Pertemuan_1.tugas2Lagi",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "tugas3",
+            "request": "launch",
+            "mainClass": "Pertemuan_1.tugas3",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "tugas3Lagi",
+            "request": "launch",
+            "mainClass": "Pertemuan_1.tugas3Lagi",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        }
+    ]
+}

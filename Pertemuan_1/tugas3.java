@@ -28,7 +28,7 @@ public class tugas3 {
             hariKuliah[i] = scanner.nextLine();
         }
         
-        while (true) {
+        while (true) { // tampilkan menu
             System.out.println("\nMenu:");
             System.out.println("1. Tampilkan seluruh jadwal kuliah");
             System.out.println("2. Tampilkan jadwal kuliah berdasarkan hari");
