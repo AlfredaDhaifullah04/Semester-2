@@ -30,19 +30,22 @@ public class dosen04 {
         System.out.print("sekarang tahun berapa: ");
         int tahunIni = str.nextInt();
         str.close();
-        int lamaNgajar = tahunBergabung - tahunIni;
+        int lamaNgajar = tahunIni-tahunBergabung;
         System.out.println("Telah ngajar selama: " + lamaNgajar);
         return lamaNgajar;
     }
 
+    // menthod
     void ubahKeahlian (String newSkill) {
         skill = newSkill;
     }
 
+    // konstruktor default
     public dosen04 () {
 
     }
 
+    // konstruktor berparameter
     public dosen04(String idDosen, String nm, boolean sta, int join, String keahlian) {
         this.idDosen = idDosen;
         nama = nm;
