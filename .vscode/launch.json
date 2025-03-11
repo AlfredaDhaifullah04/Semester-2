@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nilaiMahasiswa",
+            "request": "launch",
+            "mainClass": "Pertemuan_5.nilaiMahasiswa",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "mainSum",
+            "request": "launch",
+            "mainClass": "Pertemuan_5.mainSum",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "mainPangkat",
+            "request": "launch",
+            "mainClass": "Pertemuan_5.mainPangkat",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "bruteForceDivideConquer",
+            "request": "launch",
+            "mainClass": "Pertemuan_5.bruteForceDivideConquer",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "ahdf",
+            "request": "launch",
+            "mainClass": "Pertemuan_4.ahdf",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "cafeMain",
+            "request": "launch",
+            "mainClass": "Pertemuan_4.cafeMain",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
             "name": "DosenDemo4",
             "request": "launch",
             "mainClass": "Pertemuan_3.DosenDemo4",
