@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mahasiswaDemo04",
+            "request": "launch",
+            "mainClass": "Pertemuan_6.mahasiswaDemo04",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "SortingMain",
+            "request": "launch",
+            "mainClass": "Pertemuan_6.SortingMain",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
             "name": "nilaiMahasiswa",
             "request": "launch",
             "mainClass": "Pertemuan_5.nilaiMahasiswa",
