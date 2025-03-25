@@ -38,7 +38,7 @@ public class DosenDemo4 {
 
         //// SOAL NOMOR 2
         for (int i = 0; i < dataDosen.length; i++) {
-            dataDosen[i].dataSemuaDosen();
+            // dataDosen[i].dataSemuaDosen();
             System.out.println("--------------------");
         }
     }

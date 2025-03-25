@@ -6,7 +6,7 @@ public class mahasiswaBerprestasi04 {
     int idx;
 
     // konstruktor berparameter
-    mahasiswaBerprestasi04(int jmlData){
+    mahasiswaBerprestasi04 (int jmlData){
         jmldata = jmlData;
         listMhs = new mahasiswa04[jmldata];
     }

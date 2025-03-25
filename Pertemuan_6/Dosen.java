@@ -1,6 +1,8 @@
 package Pertemuan_6;
 import java.util.Scanner;
 
+import Pertemuan_2.dosen04;
+
 class Dosen {
     String kode, nama;
     boolean jenisKelamin;
@@ -62,6 +64,50 @@ class DataDosen {
             dataDosen[i] = temp;
         }
     }
+
+    int SearchNama (String cari) { // pencarian menggunakan sequentinal Searching berdasarkan Nama
+        int posisi = -1;
+        for (int j = 0; j < dataDosen.length; j++) {
+            if (dataDosen[j].nama.equalsIgnoreCase(null)) {
+                posisi = j;
+                break;
+            }
+        }
+        return posisi;
+    }
+
+    int findBinarySearch (double cari, int left, int right) {
+        int mid;
+        if (right >= left) {
+            mid = (left+right)/2;
+            if (cari == dataDosen[mid].usia) {
+                return(mid);
+            } else if (dataDosen[mid].usia > cari) {
+                return findBinarySearch(cari, left, mid -1);
+            } else {
+                return findBinarySearch(cari, mid-1, right); 
+            }
+        } return -1;
+    }
+
+    void tampilPosisi(int x, int pos) {
+        if (pos != -1) {
+            System.out.println("Data Dosen dengan usia : " + x + " ditemukan pada index " + pos);
+        } else {
+            System.out.println("dosen dengan umur " + x + " tidak ditemukan");
+        }
+    }
+    
+    void tampilDataSearch (int x, int pos) {
+        if (pos != -1) {
+            System.out.println("Kode\t : " + dataDosen[pos].kode);
+            System.out.println("Nama\t : " + dataDosen[pos].nama);
+            System.out.println("Jenis kelamin\t : " + dataDosen[pos].jenisKelamin);
+            System.out.println("umur\t : " + dataDosen[pos].usia);
+        } else {
+            System.out.println("Data Dosen dengan usia " + x + " tidak ditemukan");
+        }
+    }
 }
 
 class Main {
@@ -75,7 +121,9 @@ class Main {
             System.out.println("2. Tampil Data");
             System.out.println("3. Sorting ASC (Usia Muda -> Tua)");
             System.out.println("4. Sorting DSC (Usia Tua -> Muda)");
-            System.out.println("5. Keluar");
+            System.out.println("5. Mencari data Dosen berdasarkan Nama");
+            System.out.println("6. Melakukan pencarian Data dosen berdasarkan umur");
+            System.out.println("7. Keluar program");
             System.out.print("Pilih menu: ");
             pilihan = sc.nextInt();
             sc.nextLine(); // Buang newline
@@ -104,12 +152,22 @@ class Main {
                     System.out.println("Data telah diurutkan secara DSC!");
                     break;
                 case 5:
+                    System.out.println("Masukan Nama Dosen yang ingin dicari: ");
+                    String nm = sc.nextLine();
+                    data.SearchNama(nm);
+                    break;
+                case 6: 
                     System.out.println("Keluar dari program.");
                     break;
+                case 7 :
+                    System.out.print("Masukan umur dosen yang ingin dicari: ");
+                    int find = sc.nextInt(); sc.nextLine();
+                    data.sortingASC();
+                    data.findBinarySearch(find, 0, 10-1); // 10 adalah jumlah dosen
                 default:
                     System.out.println("Pilihan tidak valid!");
             }
-        } while (pilihan != 5);
+        } while (pilihan != 6);
         
         sc.close();
     }

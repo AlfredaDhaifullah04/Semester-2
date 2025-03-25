@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MahasiswaDemo04",
+            "request": "launch",
+            "mainClass": "Pertemuan_7.MahasiswaDemo04",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
             "name": "mahasiswaDemo04",
             "request": "launch",
             "mainClass": "Pertemuan_6.mahasiswaDemo04",
