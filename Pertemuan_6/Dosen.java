@@ -1,8 +1,6 @@
 package Pertemuan_6;
 import java.util.Scanner;
 
-import Pertemuan_2.dosen04;
-
 class Dosen {
     String kode, nama;
     boolean jenisKelamin;
