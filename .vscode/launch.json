@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Pertemuan_11.Main",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "LayananAkademikSIAKAD",
+            "request": "launch",
+            "mainClass": "Pertemuan_11.LayananAkademikSIAKAD",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "QueueMain",
+            "request": "launch",
+            "mainClass": "Pertemuan_11.QueueMain",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
             "name": "MahasiswaDemo04",
             "request": "launch",
             "mainClass": "Pertemuan_10.MahasiswaDemo04",
