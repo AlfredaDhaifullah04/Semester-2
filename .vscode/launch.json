@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Pertemuan_12.Main",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "SLLMain04",
+            "request": "launch",
+            "mainClass": "Pertemuan_12.SLLMain04",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Pertemuan_11.Main",
             "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
         },
