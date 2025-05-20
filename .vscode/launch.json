@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AntrianVaksin",
+            "request": "launch",
+            "mainClass": "Pertemuan_13.Double_LinkedList.tugas.AntrianVaksin",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "DoubleLinkedMain",
+            "request": "launch",
+            "mainClass": "Pertemuan_13.Double_LinkedList.DoubleLinkedMain",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Pertemuan_12.Main",
