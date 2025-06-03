@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinaryTreeArrayMain",
+            "request": "launch",
+            "mainClass": "Pertemuan_15.BinaryTreeArrayMain",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeMain04",
+            "request": "launch",
+            "mainClass": "Pertemuan_15.BinaryTreeMain04",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
             "name": "AntrianVaksin",
             "request": "launch",
             "mainClass": "Pertemuan_13.Double_LinkedList.tugas.AntrianVaksin",

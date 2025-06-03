@@ -1,11 +1,11 @@
 package Pertemuan_14;
 
-public class Node {
-    kendaraan data;
-    Node next;
+public class node {
+    Kendaraan data;
+    node next;
 
-    public Node(kendaraan data) {
-        this.data = data;
-        this.next = null;
+    public node(Kendaraan data){
+        this.data=data;
+        this.next=null;
     }
 }

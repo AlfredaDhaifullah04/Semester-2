@@ -1,11 +1,11 @@
 package Pertemuan_14;
 
 public class BBM {
-    String namaBbm;
+    String namaBBM;
     double hargaPerLiter;
 
-    public BBM (String bbm, double harga) {
-        namaBbm = bbm;
-        hargaPerLiter = harga;
+    public BBM(String nama,double harga){
+        namaBBM=nama;
+        hargaPerLiter=harga;
     }
 }
