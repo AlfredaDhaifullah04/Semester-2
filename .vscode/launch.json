@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TreeSetDemo",
+            "request": "launch",
+            "mainClass": "Pertemuan_16.TreeSetDemo",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "StackDemo",
+            "request": "launch",
+            "mainClass": "Pertemuan_16.StackDemo",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
+            "name": "DemoArrayList",
+            "request": "launch",
+            "mainClass": "Pertemuan_16.DemoArrayList",
+            "projectName": "PrakAlgoritmaStrukturDT_70d2fde4"
+        },
+        {
+            "type": "java",
             "name": "BinaryTreeArrayMain",
             "request": "launch",
             "mainClass": "Pertemuan_15.BinaryTreeArrayMain",
